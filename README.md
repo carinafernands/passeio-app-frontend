@@ -4,7 +4,8 @@ Aplicação frontend desenvolvida em Angular, responsável pela interface do Pas
 O sistema permite que usuários façam login, visualizem a galeria, gerenciem categorias e lugares, e interajam com o conteúdo do app.
 
 A aplicação está publicada no Vercel:
-🔗 Acesse o app
+🔗 [Acesse o app](https://passeio-app-frontend-qi1t-fv9uqhe9j-carinafernands-projects.vercel.app/)
+
 
 📌 Funcionalidades principais
 
