@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://passeio-app.onrender.com'
+  apiUrl: 'https://passeio-app-backend.onrender.com'
 };
