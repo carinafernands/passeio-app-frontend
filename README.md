@@ -1,69 +1,47 @@
-# Passeio App
+🐾 Passeio App – Frontend
 
-Aplicação Angular + API JSON Server.  
-Frontend hospedado no **GitHub Pages**.  
-Backend + Frontend Dockerizados e hospedados no **Render**.
+Aplicação frontend desenvolvida em Angular, responsável pela interface do Passeio App.
+O sistema permite que usuários façam login, visualizem a galeria, gerenciem categorias e lugares, e interajam com o conteúdo do app.
 
----
+A aplicação está publicada no Vercel:
+🔗 Acesse o app
 
-## 🚀 Tecnologias
+📌 Funcionalidades principais
 
-- Angular 19
-- TailwindCSS
-- JSON Server
-- Docker & Docker Compose
-- Nginx
-- GitHub Pages
-- Render
+Menu com navegação entre:
 
----
+Galeria – visualização das imagens e conteúdos cadastrados
 
-## 📦 Como rodar localmente
+Lugares – cadastro e listagem de lugares
 
-# 1. Instale dependências
-npm install
+Categorias – cadastro e listagem de categorias
 
-shell
-Copiar código
+Login com Google OAuth 2.0
 
-# 2. Suba o frontend
-npm start
+Usuários autenticados podem adicionar categorias e lugares
 
-shell
-Copiar código
+Integração com backend (API hospedada no Render)
 
-# 3. Suba a API
-npm run server
+🛠 Tecnologias utilizadas
 
-yaml
-Copiar código
+Angular 17+
 
----
+TypeScript
 
-## 🐳 Rodar tudo com Docker
+HTML / SCSS
 
-### Build das imagens
-docker build -t passeio-app .
-docker build -t passeio-api ./api
+RxJS
 
-shell
-Copiar código
+Angular Router
 
-### Executar containers
-docker run -p 4200:80 passeio-app
-docker run -p 4000:4000 passeio-api
+Angular Forms
 
-yaml
-Copiar código
+Google OAuth 2.0 – login com conta Google
 
----
+Vercel – deploy do frontend
 
-## 🌍 Deploys
+Node.js / JSON Server – backend hospedado no Render
 
-# 🔹 Frontend (Angular)
-Hospedado em **GitHub Pages**
+HTTPClient – comunicação com API
 
-# 🔹 Backend (API)
-Hospedado no **Render** usando Docker
-
----
+Git / GitHub – controle de versão
